@@ -1,3 +1,82 @@
+.nav {
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    padding: 10px 40px;
+}
+
 .test {
     background-color: red;
 }
+
+.logo{
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+    margin-left: auto;
+}
+
+.nav-link>ul>li {
+    display: inline-block;
+}
+
+.search-icon {
+    margin-left: 10px;
+}
+
+#main-page {
+    height: 280px;
+    width: auto;
+    background-image: url(images/food.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main-page h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.listing-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    width: 300px;
+}
+
+
+
+.list-img>img {
+    width: 100%;
+}
+
+.list-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.list-tag {
+    color: orange;
+    border: 1px solid orange;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.list-tag:hover {
+    color: white;
+    background-color: orange;
+}
+
+.listing-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
